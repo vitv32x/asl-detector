@@ -1,0 +1,55 @@
+# -------------------------
+# Python cache / build
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+env/
+venv/
+.venv/
+pythonenv*
+
+# -------------------------
+# FastAPI / Uvicorn
+# -------------------------
+*.log
+*.sqlite3
+
+# -------------------------
+# Pip installer logs
+# -------------------------
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------
+# Pytest
+# -------------------------
+.pytest_cache
+.coverage
+htmlcov/
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# -------------------------
+# User-specific folders
+# -------------------------
+tests/asl_alphabet_test/
+
